@@ -1,0 +1,15 @@
+{
+  "name": "202316-w2ch1-ivana-speziale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass scss:css -w --no-source-map",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "prettier": {
+    "singleQuote": true
+  }
+}
