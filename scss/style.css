@@ -1,1 +1,196 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+
+body {
+  width: 100%;
+  margin: 0%;
+  padding: 20px 10px;
+}
+
+.customers-reviews {
+  margin-block-end: 4rem;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+.customers-reviews .customers-reviews-header {
+  padding: 1.5rem;
+  gap: 3rem;
+}
+.customers-reviews .customers-reviews-header h1 {
+  color: darkmagenta;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.customers-reviews .customers-reviews-header p {
+  color: #878687;
+  font-size: 15px;
+  text-align: center;
+}
+.customers-reviews ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+  gap: 1rem;
+  padding-left: 0;
+  margin-inline: 1rem;
+}
+.customers-reviews ul .customers-reviews-rating-li {
+  text-align: center;
+  font-family: "League Spartan", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  color: darkmagenta;
+  background-color: #f7f2f7;
+  padding-inline: 1rem;
+  border-radius: 1rem;
+  padding: 16px 0px;
+  width: 95%;
+  /*    margin: 16px 0px 0px 0px; */
+}
+
+.feedback-container ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  padding-left: 0;
+  margin-inline: 1rem;
+}
+.feedback-container ul .feedback-container-review {
+  background-color: #511f50;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+.feedback-container ul .feedback-container-review .profile-picture-review {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.feedback-container ul .feedback-container-review .profile-picture-review img {
+  clip-path: circle();
+  width: 20%;
+}
+.feedback-container ul .feedback-container-review .profile-picture-review p {
+  display: flex;
+  flex-direction: column;
+}
+.feedback-container ul .feedback-container-review .profile-picture-review p .review-client-name {
+  color: #f7f2f7;
+}
+.feedback-container ul .feedback-container-review .profile-picture-review p .user-type {
+  color: #d4669f;
+  margin: 0;
+  font-weight: 500;
+}
+.feedback-container ul .feedback-container-review .profile-picture-review .review-general-text {
+  color: #f7f2f7;
+}
+
+@media (min-width: 375px) {
+  body {
+    font-family: "League Spartan", sans-serif;
+    font-size: 40px;
+    background-color: white;
+    padding: 20px 10px;
+  }
+  .customers-reviews {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+  }
+  .customers-reviews .customers-reviews-header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 0.9rem;
+  }
+  .customers-reviews .customers-reviews-header h1 {
+    color: darkmagenta;
+    font-size: 3rem;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  .customers-reviews .customers-reviews-header p {
+    color: #878687;
+    font-size: 30px;
+  }
+  .customers-reviews ul {
+    text-decoration: none;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 1rem;
+  }
+  .customers-reviews ul .customers-reviews-rating-li {
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #f7f2f7;
+    align-items: center;
+    gap: 1rem;
+    background-color: #f7f2f7;
+    color: darkmagenta;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 0.8rem 2rem;
+    width: auto;
+  }
+  .feedback-container {
+    padding-bottom: 1.5rem;
+  }
+  .feedback-container ul {
+    padding: 0;
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  .feedback-container ul li section {
+    font-size: 30px;
+    padding: 2rem;
+    background: darkmagenta;
+    border-radius: 10px;
+  }
+  .feedback-container ul li section .profile-picture-review {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+  .feedback-container ul li section .profile-picture-review img {
+    border-radius: 50px;
+    width: 3rem;
+  }
+  .feedback-container ul li section .profile-picture-review p {
+    display: flex;
+    flex-direction: column;
+  }
+  .feedback-container ul li section .profile-picture-review p .review-client-name {
+    color: #f7f2f7;
+  }
+  .feedback-container ul li section .profile-picture-review p .user-type {
+    color: palevioletred;
+  }
+  .feedback-container ul li section .review-general-text {
+    color: #878687;
+  }
+}/*# sourceMappingURL=style.css.map */
