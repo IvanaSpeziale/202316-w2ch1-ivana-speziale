@@ -101,7 +101,7 @@ body {
   color: #f7f2f7;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 390px) {
   body {
     font-family: "League Spartan", sans-serif;
     font-size: 40px;
@@ -166,7 +166,6 @@ body {
   .feedback-container ul li section {
     font-size: 30px;
     padding: 2rem;
-    background: darkmagenta;
     border-radius: 10px;
   }
   .feedback-container ul li section .profile-picture-review {
